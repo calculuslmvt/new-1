@@ -8,6 +8,8 @@ int main(void)
     scanf("%d",&a);
     
     b=a%10;
+    a=a/100;
+    a=a*10;
     
     printf("%d",a+b);
     
