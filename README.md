@@ -1,29 +1,14 @@
 #include <stdio.h>
 
-int main(int argc, char **argv)
-{int i=0,count=0,b,a;
-	printf("enter the number");
+int main(void)
+{     
+    int a;
+    
+    printf("enter a number");
     scanf("%d",&a);
-    b=a;
-    ch:
-    for (i;i<123 ;i++)
-        {  count++;
-            a=a/10;
-        
-            if (a<1)
-             break;
-     
-          else 
-  
-           continue ; }
-            
-            printf("number of digits are %d " , count );
-            
-           b=b%100;
-           if
-           b=b/10;
-           printf("  \n \n  %d",b);
-           getch();
+    a=a/10;
+    printf("%d",a);
     
 	return 0;
 }
+
