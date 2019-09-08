@@ -1,22 +1,17 @@
 #include <stdio.h>
+#include <math.h>
 
 int main(void)
 {     
     int a,b,c;
+    float semi;
     
-    printf("enter a number");
-    scanf("%d",&a);
+    printf("enter the sides of traingle");
+    scanf("%d %d %d", &a,&b,&c);
+    semi=(a+b+c)/2;
+    semi=sqrt(semi*(semi-a)*(semi-b)*(semi-c));
     
-    
-    b=a%10;
-    c=a%100;
-    c=c/10;
-    a=a/100;
-    a=(a*10)+b;
-    a=(a*10)+c;
-    
-    
-    printf("%d",a);
+    printf("area of the triangle is %.2f",semi);
     
 	return 0;
 }
