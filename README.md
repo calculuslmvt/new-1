@@ -6,10 +6,9 @@ int main(void)
     
     printf("enter a number");
     scanf("%d",&a);
-    b=a;
-    a=a%100;
-    a=a/10;
-    b=b%10;
+    
+    b=a%10;
+    
     printf("%d",a+b);
     
 	return 0;
