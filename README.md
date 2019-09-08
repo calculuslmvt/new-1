@@ -6,8 +6,8 @@ int main(void)
     
     printf("enter a number");
     scanf("%d",&a);
-    a=a/10;
-    printf("%d",a);
+    a=a%100;
+    printf("%d",a/10);
     
 	return 0;
 }
