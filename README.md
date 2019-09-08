@@ -25,5 +25,5 @@ int main(int argc, char **argv)
            printf("  \n \n  %d",b);
            getch();
     
-	return 0;
+	return 0
 }
