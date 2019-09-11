@@ -7,7 +7,7 @@ int main(void)
     
     
     printf("enter the four values");
-    scanf("%f %f %f", &a,&b,&c,&d,&e,&f);
+    scanf("%f %f %f %f %f %f", &a,&b,&c,&d,&e,&f);
 
     a=(1/2)*((a*(d-f))-(b*(c-e))+((c*f)-(e*d)));
     printf("area is %f",a);
