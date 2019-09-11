@@ -3,13 +3,15 @@
 
 int main(void)
 {     
-    float a,b,c,d,e,f, area;
+    float a,b,c,d,e,f,g,h,r,t;
     
     
     printf("enter the four values");
-    scanf("%f %f %f %f %f %f ",&a,&b,&c,&d,&e,&f);
+    scanf("%f %f %f %f %f %f %f %f",&a,&b,&c,&d,&e,&f,&g,&h);
     
-    printf("the point of intersection is (x,%f)", ((f*a)-(d*c))/((d*b)-(e*a)));
+   t= (-1*((a*(e/2))+(b*(f/2))+(c*(g/2))-d))/(sqrt((a*a)+(b*b)+(c*c)));
+   r= sqrt((e*e/4)+(f*f/4)+(g*g/4)-h);
+   printf("radius of the circle formed is %f", sqrt((r*r)-(t*t)));
     return 0;
     
     
