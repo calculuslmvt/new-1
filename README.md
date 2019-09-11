@@ -6,11 +6,11 @@ int main(void)
     float a,b,c,d,e,f;
     
     
-    printf("enter the four values");
-    scanf("%f %f %f %f %f %f", &a,&b,&c,&d,&e,&f);
+    printf("enter the a b c of line");
+    scanf("%f %f %f ", &a,&b,&c);
+    printf("slope is %f ", -1*a/b);
 
-    a=(1/2)*((a*(d-f))-(b*(c-e))+((c*f)-(e*d)));
-    printf("area is %f",a);
+    
     
 	return 0;
 }
