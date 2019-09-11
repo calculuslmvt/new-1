@@ -7,10 +7,11 @@ int main(void)
     
     
     printf("enter the a b c of line");
-    scanf("%f %f %f %f %f ", &a,&b,&c,&d,&e);
+    scanf("%f %f %f ", &a,&b,&c);
     
-  a=((a*c)+(b*d)+e)/(sqrt((c*c)+(d*d)));
-  printf("distance between line is %f",a);
+  printf("center is (%f,%f)", -1*a/2,-1*b/2);
+  e=sqrt(((a/2)*(a/2))+((b/2)*(b/2))-c);
+  printf ("radius is %f",e);
 
     
     
