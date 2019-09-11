@@ -3,14 +3,14 @@
 
 int main(void)
 {     
-    float a,b,c,d,e;
+    float a,b,c,d,e,f;
     
     
     printf("enter the four values");
-    scanf("%f %f %f %f", &a,&b,&c,&d);
-    e=sqrt(((a-c)*(a-c))+((b-d)*(b-d)));
-    
-    printf("the length is %f",e);
+    scanf("%f %f %f", &a,&b,&c,&d,&e,&f);
+
+    a=(1/2)*((a*(d-f))-(b*(c-e))+((c*f)-(e*d)));
+    printf("area is %f",a);
     
 	return 0;
 }
