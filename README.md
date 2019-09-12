@@ -6,18 +6,18 @@ int main()
     
     float a,b,c,d;
     
-    printf("enter a  b c of quadratic eqn\n ");
+    printf("enter a  b c \n ");
     
     scanf ("%f %f %f", &a,&b,&c);
     
-    d = (b*b)-(4*a*c);
-    if (d>0)
-    printf( "roots are %f , %f ", ((-1*b)-sqrt(d))/(2*a),((-1*b)+sqrt(d))/(2*a) );
-    else if (d==0)
-    printf("roots are %f", (-1*b)/(2*a));
-    else
-    printf("the roots are %f + i%f ",-1*b/2*a,sqrt(-d)/2*a);
-        
+    if (a==b)
+    printf("%d",c);
+    else if(a==c)
+    printf("%d",b);
+    else if (b==c)
+    printf("%d",a);
+    else 
+    printf("invalid input");
 
         return 0;
 }        
