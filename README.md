@@ -4,14 +4,14 @@
 int main()
 {     
     
-    int a,b,c,d;
+    int a,b,c;
     
     printf("enter three numbers");
     scanf("%d %d %d",&a,&b,&c);
     
 
-    d = (a > b) ? ((a > c) ? a : c) : ((b > c) ? b : c);
-    printf("%d",d);
+  (a > b) ? ((a > c) ? printf("%d",a) : printf("%d",c)) : ((b > c) ? printf("%d",b) : printf("%d",c));
+
     
         return 0;
 }        
