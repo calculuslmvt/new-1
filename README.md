@@ -6,13 +6,14 @@ int main()
     
     int a,b,c;
     
-    printf("enter two numbers");
-    scanf("%d %d", &a,&b);
+    printf("enter three sides of triangle ");
     
-    if (a>b)
-    printf("%d %d ", a,b);
-    else
-    printf("%d %d ",b,a);
+    scanf ("%d %d %d",& a,&b,&c);
+    
+    if ((a*a)==((b*b)+(c*c)))
+    printf("A is 90 degrees");
+    else 
+    printf ("a is not  90 degree");
     
         return 0;
 }        
