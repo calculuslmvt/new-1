@@ -4,20 +4,22 @@
 int main()
 {     
     
-    float a,b,c,d;
+    float a,b,c,d,x;
     
-    printf("enter a  b c \n ");
     
-    scanf ("%f %f %f", &a,&b,&c);
+    printf("enter a  b c d x \n ");
     
-    if (a==b)
-    printf("%d",c);
-    else if(a==c)
-    printf("%d",b);
-    else if (b==c)
-    printf("%d",a);
-    else 
-    printf("invalid input");
+    scanf ("%f %f %f %f %f", &a,&b,&c,&d,&x);
+    
+    if (a==x)
+    printf("a");
+    else if(b==x)
+    printf("b");
+    else if (c==x)
+    printf("c");
+    else if(d==x)
+    
+    printf("d");
 
         return 0;
 }        
