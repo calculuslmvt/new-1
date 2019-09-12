@@ -6,7 +6,7 @@ int main(void)
     float a,b,c,d,e,f,g,h,r,t;
     
     
-    printf("enter the four values");
+    printf("enter the values");
     scanf("%f %f %f %f %f %f %f %f",&a,&b,&c,&d,&e,&f,&g,&h);
     
    t= (-1*((a*(e/2))+(b*(f/2))+(c*(g/2))-d))/(sqrt((a*a)+(b*b)+(c*c)));
