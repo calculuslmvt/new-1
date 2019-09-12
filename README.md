@@ -16,8 +16,8 @@ int main()
     else if (d==0)
     printf("roots are %f", (-1*b)/(2*a));
     else
-    printf("the real part is %f and the imaginary part is +and - %f ",-1*b/2*a,sqrt(-d)/2*a);
-    
+    printf("the roots are %f + i%f ",-1*b/2*a,sqrt(-d)/2*a);
+        
 
         return 0;
 }        
