@@ -4,16 +4,18 @@
 int main()
 {     
     
-    int a,b,c;
+    float a,b,c;
     
-    printf("enter three sides of triangle ");
+    printf("enter a  b c of that line  ");
     
-    scanf ("%d %d %d",& a,&b,&c);
+    scanf ("%f %f %f", &a,&b,&c);
     
-    if ((a*a)==((b*b)+(c*c)))
-    printf("A is 90 degrees");
-    else 
-    printf ("a is not  90 degree");
+    printf("the slope is %f \n ",-1*a/b);
+    
+    if (b==0)
+    printf("line is verticle");
+    
+    
     
         return 0;
 }        
