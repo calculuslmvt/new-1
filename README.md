@@ -10,14 +10,8 @@ int main()
     printf("enter a  b c d x \n ");
     
     for (i=0;i<=100;i++)
-    { if (20<=i&&i<=40)
-        {if((i%2)==0)
-        printf("%d \n",i);
-        }
-        else if(50<=i&&i<=80)
-        {if((i%2)!=0)
-        printf("%d\n",i);
-        }
+    { if (i%3==0||i%7==0)
+    printf("%d \t",i);
         
         
     }
