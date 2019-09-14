@@ -10,11 +10,11 @@ int main()
     printf("enter a  b c d x \n ");
     
     for (i=0;i<=100;i++)
-    { if (i<=50)
+    { if (20<=i&&i<=40)
         {if((i%2)==0)
         printf("%d \n",i);
         }
-        else
+        else if(50<=i&&i<=80)
         {if((i%2)!=0)
         printf("%d\n",i);
         }
