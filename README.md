@@ -1,29 +1,26 @@
 #include <stdio.h>
+#include <math.h>
 
-int main(int argc, char **argv)
-{int i=0,count=0,b,a;
-	printf("enter the number");
-    scanf("%d",&a);
-    b=a;
-    ch:
-    for (i;i<123 ;i++)
-        {  count++;
-            a=a/10;
-        
-            if (a<1)
-             break;
-     
-          else 
-  
-           continue ; }
-            
-            printf("number of digits are %d " , count );
-            
-           b=b%100;
-           if
-           b=b/10;
-           printf("  \n \n  %d",b);
-           getch();
+int main()
+{     
     
-	return 0;
-}
+    int a,b,c,d,x,i=0;
+    
+    
+    printf("enter a  b c d x \n ");
+    
+    for (i=0;i<=100;i++)
+    { if(i%3==0 || i%5==0)
+      continue;
+      else if(i%2==0)
+      printf("%d ",i);
+      else
+      continue;
+    
+    
+    }
+        return 0;
+}        
+    
+
+
