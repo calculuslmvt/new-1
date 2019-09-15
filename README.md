@@ -10,10 +10,11 @@ int main()
     printf("enter a  b c d x \n ");
     
     for (i=0;i<=100;i++)
-    { if(i%15==0)
-      continue;
-      else if(i%3==0 || i%5==0)
-      printf("%d ",i);
+    { if((i%10)%3==0)
+    if(i%10==0)
+    continue;
+    else
+    printf("%d ",i);
     
     
     }
